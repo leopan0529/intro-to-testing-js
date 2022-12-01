@@ -89,6 +89,38 @@ describe("isFive",function (){
 })
 
 
+describe("isEven", function (){
+    it("should be a defined function",function (){
+        expect(typeof isFive).toBe("function")
+    })
+})
+
+
+
+describe("isEven",function (){
+    it("should return a boolean",function (){
+        expect(typeof isEven()).toBe("boolean")
+    })
+})
+
+
+describe("isVowel", function (){
+    it("should be a defined function",function (){
+        expect(typeof isVowel).toBe("function")
+    })
+})
+
+
+describe("isVowel",function (){
+    it("should return a boolean",function (){
+        expect(typeof isVowel()).toBe("boolean")
+    })
+})
+
+
+
+
+
 
 
 

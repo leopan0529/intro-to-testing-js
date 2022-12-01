@@ -38,6 +38,27 @@ function isFive(input){
     }
 }
 
+
+function isEven(input){
+    if (input %2 === 0){
+        return true
+    }
+    else {
+        return  false
+    }
+}
+
+function isVowel(input){
+
+    if(typeof input === "string" && input.length===1){
+        return true
+    }
+    else {
+        return false
+    }
+
+}
+
 sayHello("Alex")
 sayHello("Pat")
 sayHello("Jane")
@@ -52,3 +73,27 @@ isFive(5);
 isFive(7)
 isFive("8")
 console.log(isFive("5"))
+
+
+isEven(2);
+
+isEven(-4);
+isEven(3);
+isEven("banana");
+isEven("8");
+isEven(Infinity);
+isEven(true);
+isEven(false);
+isEven()
+
+
+isVowel("a");
+isVowel("A");
+isVowel("y");
+isVowel(4);
+isVowel(true);
+isVowel(false)
+isVowel("banana");
+isVowel()
+
+console.log(isVowel("banana"),'banana')
