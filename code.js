@@ -59,6 +59,18 @@ function isVowel(input){
 
 }
 
+
+function add(a,b){
+    if(parseFloat(typeof a) && parseFloat(typeof b)  === "number"){
+        return parseFloat(a)+parseFloat(b)
+    }
+    else {
+        return NaN
+    }
+
+
+}
+
 sayHello("Alex")
 sayHello("Pat")
 sayHello("Jane")
@@ -96,4 +108,13 @@ isVowel(false)
 isVowel("banana");
 isVowel()
 
-console.log(isVowel("banana"),'banana')
+console.log(isVowel("banana"),'banana');
+
+
+add(2, 3);
+add(-3, -9);
+add("5", 6);
+add("-4", "10")
+console.log(add("banana", "split"));
+console.log(add(2, "apples"));
+console.log(add(),2222)
