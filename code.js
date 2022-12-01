@@ -28,6 +28,16 @@ function sayHello(input){
 }
 
 
+
+function isFive(input){
+    if (input ==5){
+        return true
+    }
+    else {
+        return false
+    }
+}
+
 sayHello("Alex")
 sayHello("Pat")
 sayHello("Jane")
@@ -37,3 +47,8 @@ sayHello(2.3)
 sayHello("")
 sayHello("5")
 sayHello([1,2,3,4])
+
+isFive(5);
+isFive(7)
+isFive("8")
+console.log(isFive("5"))
