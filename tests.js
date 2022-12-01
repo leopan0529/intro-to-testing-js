@@ -52,3 +52,34 @@ describe('sayHello',function (){
         expect(sayHello("Pat")).toBe("Hello,Pat!")
     })
 })
+
+
+describe('sayHello',function (){
+    it("should return the string Hello, World",function (){
+        expect(sayHello()).toBe("Hello, World")
+    })
+})
+
+
+describe('sayHello',function (){
+    it("should return the string Hello, World",function (){
+        expect(sayHello(true)).toBe("Hello, World")
+    })
+})
+
+
+describe('sayHello',function (){
+    it("should return the string Hello, World",function (){
+        expect(sayHello(false)).toBe("Hello, World")
+    })
+})
+
+
+
+
+
+
+
+
+
+
